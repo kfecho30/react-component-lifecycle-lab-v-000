@@ -12,7 +12,9 @@ class App extends React.Component {
       latestTweets: []
     };
   }
-
+  componentWillMount(){
+    this.fetchTweets();
+  }
   // TODO: componentWillMount()
   // TODO: componentDidMount()
   // TODO: componentWillUnmount()
