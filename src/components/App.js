@@ -15,7 +15,6 @@ class App extends React.Component {
   componentWillMount(){
     this.fetchTweets();
   }
-  // TODO: componentWillMount()
   // TODO: componentDidMount()
   // TODO: componentWillUnmount()
 
